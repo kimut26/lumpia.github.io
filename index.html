@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Lumpia Murena</title>
+  <meta name="title" content="Lumpia Jamur Murena">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home" class="logo">
+        <img src="./assets/images/logo.png" width="60" height="50" alt="Lumpia Murena">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#home" class="logo">
+          <img src="./assets/images/logo.png" width="60" height="50" alt="Lumpia Murena">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link" data-nav-link>Menu</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#testi" class="navbar-link" data-nav-link>Testimoni</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contacts" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="https://wa.link/pnrgpd" class="btn btn-primary has-after">Order Now</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+            <h1 class="h1 hero-title">Lumpia Jamur Murena</h1>
+
+            <p class="hero-text">
+              Lumpia ini terbuat dari jamur yang ditanam sendiri sehingga rasa dan kualitasnya terbaik. Kata Murena sendiri memiliki arti Murah, Enak dan Mantap.
+            </p>
+
+            <a href="https://wa.link/pnrgpd" class="btn btn-secondary has-after">Order Now</a>
+          </div>
+
+          <figure class="hero-banner" data-reveal>
+
+            <img src="./assets/images/pia2.png" width="680" height="720" alt="Lumpia Murna" class="w-100">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTRUCTION
+      -->
+
+      <section class="section instruction" id="menu" aria-labelledby="">
+        <div class="container">
+
+          <h2 class="h2 section-title" id="instruction-label" data-reveal>Menu</h2>
+
+          <p class="section-text" data-reveal>
+            Ada berbagai macam variant rasa lumpia jamur murena diantaranya original, pedas, dan sapi panggang
+          </p>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/ori.png" width="300" height="154" loading="lazy"
+                    alt="Select Restaurant" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Original
+                  </h3>
+
+                  <p class="card-text">
+                    Nikmati kelezatan original yang menggoda dengan Lumpia Jamur kami! Kulit renyah, isian jamur yang melimpah, dan cita rasa yang tak terlupakan.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/pedas.png" width="300" height="154" loading="lazy"
+                    alt="Select menu" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Pedas
+                  </h3>
+
+                  <p class="card-text">
+                    Ledakan kepedasan yang menggugah selera dalam setiap gigitan! Rasakan sensasi pedas yang menggelegar dengan Lumpia Jamur Pedas kami yang berani dan menggoda.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/sapi.png" width="300" height="154" loading="lazy"
+                    alt="Wait for delivery" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5 card-title">
+                    Sapi Panggang
+                  </h3>
+
+                  <p class="card-text">
+                    Kelezatan lumpia jamur sapi panggang memukau lidah Anda! Rasa gurih dan aroma outentik yang sempurna dalam setiap gigitan.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="bintang" aria-label="statistics" data-reveal>
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <h2 class="h3 section-title">Ulasan kami.</h2>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">1K+</span>
+
+              <p class="stats-text">
+                Pelanggan <br>
+                Puas
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">5k+</span>
+
+              <p class="stats-text">
+                Terjual <br>
+              </p>
+            </li>
+
+            <li class="stats-item">
+              <span class="span">1</span>
+
+              <p class="stats-text">
+                Outlet <br>
+                Resmi
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" id="testi" aria-labelledby="testi-label">
+        <div class="container">
+
+          <div class="testi-content" data-reveal="left">
+
+            <h2 class="h2 section-title" id="testi-label">Apa kata mereka tentang kami</h2>
+
+            <blockquote class="testi-text">
+              "Halo semua, kami ingin membagikan pengalaman yang unik dengan Lumpia Jamur Murena.  Rasanya luar biasa! Setiap gigitan memberikan kelezatan yang menggoda lidah. Jamur-jamurnya begitu lembut dan penuh cita rasa. Pelayanan di Lumpia Jamur Murena juga patut dipuji. Stafnya sangat ramah dan perhatian terhadap kebutuhan pelanggan. Mereka membuat kunjungan kami  semakin menyenangkan. Tunggu apalagi ayoo beli Lumpia Jamur Murena"
+            </blockquote>
+
+            <div class="wrapper">
+              <img src="./assets/images/upre.png" width="100" height="100" loading="lazy" alt="Upreneur12.0"
+                class="author-img">
+
+              <div>
+                <p class="author-title">UPreneur12.0</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <figure class="testi-banner" data-reveal="right">
+            <img src="./assets/images/bayu2.png" width="680" height="588" alt="testimonial banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contacts">
+    <div class="container">
+
+      <div class="section footer-top grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="80" height="50" alt="Lumpia Murena">
+          </a>
+
+          <h2 class="h2 section-title">Lumpia Jamur Murena</h2>
+
+          <p class="section-text">
+            Lumpia ini terbuat dari jamur yang ditanam sendiri sehingga rasa dan kualitasnya terbaik. Bisa melayani dilivery dan COD di sekitaran daerah Semarang.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Contacts</p>
+          </li>
+
+          <li>
+            <address class="address">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+              <span class="span">Jl. Jangli Tlawah V No.40, RT.02/RW.5, Karanganyar Gn., Kec. Candisari, Kota Semarang, Jawa Tengah 50255</span>
+            </address>
+          </li>
+
+          <li>
+            <a href="https://wa.link/pnrgpd" class="footer-link">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+              <span class="span">0821-3436-4583</span>
+            </a>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=100094669874960" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/lumpia_murena/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.tiktok.com/@lumpia.murena" class="social-link">
+                  <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://wa.link/pnrgpd" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2023 UPreneur12.0 .All rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
